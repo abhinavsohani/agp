@@ -557,7 +557,8 @@ g.Btn {
 }
 .services{
 
-	background: url(../images/srbg.jpg) no-repeat 0px 0px;
+	/* background: url(../images/srbg.jpg) no-repeat 0px 0px; */
+	background-color: rebeccapurple;
 	background-size:cover;
 }
 .service-grids,.agile-event-grids,.team-agileits-grids {
@@ -1825,3 +1826,7 @@ margin: 1em 0;
 }
 }
 /*--responsive starts here--*/
+
+.fix-height{
+	height: 262px;;
+}
